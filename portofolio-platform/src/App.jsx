@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Hero from './Components/Hero';
-import AddProjectModel from './Components/AddProjectModal';
+import AddProjectModal from './Components/AddProjectModal';
 import ProjectList from './Components/ProjectList';
 import ProjectForm from './Components/ProjectForm';
 import SearchBar from './Components/SearchBar';

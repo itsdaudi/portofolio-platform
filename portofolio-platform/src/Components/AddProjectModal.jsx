@@ -1,4 +1,4 @@
-mport { useState } from "react";
+import { useState } from "react";
 import "../styles/AddProjectModal.css";
 
 const defaultForm = {
@@ -13,7 +13,7 @@ const defaultForm = {
   image: "branding",
 };
 
-export default function AddProjectModal({ onClose, onSubmit, categories }) {
+export default function AddProjectModel({ onClose, onSubmit, categories }) {
   const [form, setForm] = useState(defaultForm);
   const [errors, setErrors] = useState({});
 
